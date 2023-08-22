@@ -1,0 +1,125 @@
+
+  
+  .slider {
+    /* text-align: center; */
+    /* overflow: hidden; */
+  }
+  
+  .slides {
+    display: flex;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    /* height: 200px; */
+    
+    
+    scroll-behavior: smooth;
+    -webkit-overflow-scrolling: touch;
+    
+    /*
+    scroll-snap-points-x: repeat(300px);
+    scroll-snap-type: mandatory;
+    */
+  }
+  .slides::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+  }
+  .slides::-webkit-scrollbar-thumb {
+    background: rgb(187, 133, 133);
+    border-radius: 10px;
+  }
+  .slides::-webkit-scrollbar-track {
+    background: transparent;
+  }
+  .slides > div {
+    scroll-snap-align: start;
+    flex-shrink: 0;
+    width: 300px;
+    height: 200px;
+    margin-right: 20px;
+    border-radius: 10px;
+    background: #eee;
+    transform-origin: center center;
+    transform: scale(1);
+    transition: transform 0.5s;
+    position: relative;
+    
+    display: flex;
+    flex-direction: column;
+    font-size: 100px;
+  }
+  .slides > div:target {
+  /*   transform: scale(0.8); */
+  }
+  .author-info {
+    background: rgba(0, 0, 0, 0.75);
+    color: white;
+    padding: 0.75rem;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    margin: 0;
+  }
+  .author-info a {
+    color: white;
+  }
+  .slides img {
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    opacity: 0.9;
+  }
+  .slides img:hover{
+    opacity: 0.7;
+  }
+  .slides p{
+   font-size: 15px;
+   z-index: 2;
+    margin-top: 130px;
+    margin-left: 20px;
+    color: black;
+    font-weight: 700;
+  }
+ .slides__download{
+    z-index: 3;
+    color: rgb(130, 0, 0);
+    font-size: 14px;
+    font-weight: 700;
+    /* text-decoration: none; */
+    /* background-color: rgb(29, 147, 221); */
+    /* margin-left: 20px; */
+    padding-left: 20px;
+  }
+  
+  .slider > a {
+    display: inline-flex;
+    width: 1.5rem;
+    height: 1.5rem;
+    background: white;
+    text-decoration: none;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    margin: 0 0 0.5rem 0;
+    position: relative;
+  }
+  .slider > a:active {
+    top: 1px;
+  }
+  .slider > a:focus {
+    background: #000;
+  }
+  
+  /* Don't need button navigation */
+  @supports (scroll-snap-type) {
+    .slider > a {
+      display: none;
+    }
+  }
+  
