@@ -1,0 +1,76 @@
+.banner-card{
+    width: 100%;
+    height: 220px;
+    color: var(--clr-dark);
+    background-image: url(../../images//extra-img//des.jpg);
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    border-radius: 10px;
+    justify-content: center;
+}
+.banner-card h2{
+    padding-top: 4rem;
+    letter-spacing: 5px;
+}
+
+
+
+
+/* xs */
+@media (min-width: 475px){
+    .container{
+        max-width: 475px;
+    }
+    .banner-card{
+        height: 300px;
+        padding: 20px;
+    }
+  }
+  
+  /* sm */
+  @media (min-width: 640px){
+    .container{
+        max-width: 640px;
+    }
+    .banner-card{
+        height: 300px;
+    }
+  }
+  
+  /* md */
+  @media (min-width: 768px){
+    .container{
+        max-width: 768px;
+    }
+    .banner-card{
+        height: 250px;
+    }
+  }
+  
+  /* lg */
+  @media (min-width: 1024px){
+    .container{
+        max-width: 1024px;
+    }
+    .banner-card{
+        height: 300px;
+    }
+  }
+  
+  /* xl */
+  @media (min-width: 1280px){
+    .container{
+        max-width: 1280px;
+    }
+    .banner-card{
+        height: 350px;
+    }
+  }
+  
+  /* 2xl */
+  @media (min-width: 1536px){
+    .container{
+        max-width: 1536px;
+    }
+  }
