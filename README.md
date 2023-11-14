@@ -2,6 +2,12 @@
 # React App Store
 Hello, i make this app store using react. So as a learning phase, i make this project to inhance my coding skill. Contributions are always welcome. **## Happy Coding ##**
 
+## Deployment
+
+This project is live here
+
+https://boksapasal.vercel.app/
+
 ## Technologies use in
 
   **HTML5**
@@ -15,13 +21,6 @@ Hello, i make this app store using react. So as a learning phase, i make this pr
   **API**
   
   **Firebase**
-
-## Deployment
-
-This project is live here
-
-https://boksapasal.vercel.app/
-
 
 
 ## Installation
