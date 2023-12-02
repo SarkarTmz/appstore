@@ -1,7 +1,7 @@
 import React from 'react'
 import '../styles/Home.css'
 
-import GamesList from '../pages/games/GamesList'
+import GameList from '../state/games/GameList'
 import Scroll from '../components/Scroll'
 import Banner from '../components/Banner'
 import Footer from '../components/Footer'
@@ -12,9 +12,9 @@ function Home() {
     <>
       <div className="home section container">
         <Scroll />
-        <GamesList />
+        <GameList />
         <Scroll/>
-        <GamesList />
+        <GameList />
         <Banner />
       </div>
       <Footer />
