@@ -5,6 +5,7 @@ import GameList from '../state/games/GameList'
 import Scroll from '../components/Scroll'
 import Banner from '../components/Banner'
 import Footer from '../components/Footer'
+import Dropdown from '../components/Dropdown'
 
 function Home() {
 
@@ -16,6 +17,7 @@ function Home() {
         <Scroll/>
         <GameList />
         <Banner />
+        <Dropdown/>
       </div>
       <Footer />
     </>

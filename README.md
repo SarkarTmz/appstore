@@ -1,53 +1,8 @@
+# React + Vite
 
-# React App Store
-Hello, i make this app store using react. So as a learning phase, i make this project to inhance my coding skill. Contributions are always welcome. **## Happy Coding ##**
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-## Deployment
+Currently, two official plugins are available:
 
-This project is live here
-
-https://boksapasal.vercel.app/
-
-## Technologies use in
-
-  **HTML5**
-  
-  **CSS3**
-  
-  **JavaScript**
-  
-  **React**
-  
-  **API**
-  
-  **Firebase**
-
-
-## Installation
-
-To Use this code, follow this steps:-
-
-```bash
-  git clone https://github.com/SarkarTmz/appstore
-
-  cd appstore
-
-  npm install
-
-  npm start
-  
-```
-    
-## Contributing
-
-Contributions are always welcome!
-
-See `contributing.md` for ways to get started.
-
-Please adhere to this project's `code of conduct`.
-
-
-## Author
-
-- [@SarkarTmz](https://www.github.com/SarkarTmz)
-
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
