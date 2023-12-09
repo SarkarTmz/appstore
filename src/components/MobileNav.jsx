@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { NavLink } from 'react-router-dom';
 import { RiMenu3Fill } from 'react-icons/ri';
 
-import '../styles/MobileNav.css'
+import '../styles/component/MobileNav.css'
 import logo from '../images/logo.jpg'
 
 

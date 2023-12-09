@@ -9,12 +9,21 @@
     display: flex;
     gap: 2rem;
 }
-.header ul a{
+.ul a{
     font-size: 1.2rem;
     text-decoration: none;
     color: var(--clr-light);
 }
-
+.ul{
+    display: flex;
+    gap: 2rem;
+}
+.dis{
+    font-size: 1.4rem;
+}
+.black a{
+    color: var(--clr-dark);
+}
 
 
 /* xs */

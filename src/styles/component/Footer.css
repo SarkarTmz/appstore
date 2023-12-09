@@ -10,13 +10,23 @@
     gap: 3rem;
     padding-right: 15rem;
 }
+.footer-card ul a{
+    color: var(--clr-dark);
+}
+.footer-card ul p{
+    font-size: 1.3rem;
+    border-bottom: 1px solid var(--clr-dark);
+    margin-bottom: 1rem;
+}
 .footer-card ul{
-    
+    display: flex;
+    flex-direction: column;
 }
-.footer-card ul li{
-    list-style: none;
+.credit{
+    user-select: none;
+    text-align: center;
+    margin-top: 2rem;
 }
-
 
 
 /* xs */

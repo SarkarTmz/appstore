@@ -1,0 +1,7 @@
+.about-banner h1{
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+.about-banner ul li{
+    list-style-type: disc;
+}

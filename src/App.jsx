@@ -7,6 +7,7 @@ import Apps from './pages/Apps';
 import Psp from './pages/Psp';
 import Contact from './pages/Contact';
 import MobileNav from './components/MobileNav';
+import About from './pages/About';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
         <Route path='/apps' element={<Apps/>} />
         <Route path='/psp-games' element={<Psp/>} />
         <Route path='/contact' element={<Contact/>} />
+        <Route path='/about' element={<About/>} />
       </Routes>
       </>
   );

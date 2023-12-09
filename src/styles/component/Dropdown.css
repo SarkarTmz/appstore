@@ -10,8 +10,13 @@
 .single{
     margin-top: 1.25rem;
 }
-
-
+.dpmain{
+    margin-bottom: 2.5rem;
+}
+.dpmain p{
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+}
 
 
 /* xs */
