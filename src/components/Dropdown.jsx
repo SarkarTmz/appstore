@@ -17,15 +17,15 @@ const Dropdown = () => {
                 <Disclosure>
                   {({ open }) => (
                     <>
-                      <Disclosure.Button className="flex w-full justify-between rounded-lg bg-purple-100 px-4 py-2 text-left text-sm font-medium text-purple-900 hover:bg-purple-200 focus:outline-none focus-visible:ring focus-visible:ring-purple-500/75">
+                      <Disclosure.Button className="flex w-full justify-between rounded-l px-4 py-2 text-left text-sm font-medium text-black">
                         <span>What is Boksa Pasal?</span>
                         <ChevronUpIcon
                           className={`${
                             open ? 'rotate-180 transform' : ''
-                          } h-5 w-5 text-purple-500`}
+                          } h-5 w-5 text-black`}
                         />
                       </Disclosure.Button>
-                      <Disclosure.Panel className="px-4 pb-2 pt-4 text-sm text-gray-500">
+                      <Disclosure.Panel className="px-4 pb-2 pt-4 text-sm text-black">
                       Boksa Pasal is an open playground for lovers of Android games & apps.
 
   At Boksa Pasal, you can easily search and download thousands of MOD APK, Premium APK and Original APK games and apps for free. Use the search button to find what you’re looking for, or browse the pre-designed categories
@@ -42,7 +42,7 @@ const Dropdown = () => {
                 <Disclosure>
                   {({ open }) => (
                     <>
-                      <Disclosure.Button className="flex w-full justify-between rounded-lg bg-purple-100 px-4 py-2 text-left text-sm font-medium text-purple-900 hover:bg-purple-200 focus:outline-none focus-visible:ring focus-visible:ring-purple-500/75">
+                        <Disclosure.Button className="flex w-full justify-between rounded-l px-4 py-2 text-left text-sm font-medium text-black">
                         <span>Is Boksa Pasal safe?</span>
                         <ChevronUpIcon
                           className={`${
@@ -50,7 +50,7 @@ const Dropdown = () => {
                           } h-5 w-5 text-purple-500`}
                         />
                       </Disclosure.Button>
-                      <Disclosure.Panel className="px-4 pb-2 pt-4 text-sm text-gray-500">
+                      <Disclosure.Panel className="px-4 pb-2 pt-4 text-sm text-black">
                       SURE!
 
                       Boksa Pasal always uses the original APK from Google Play as the foundation for the birth of quality MOD versions. We even turn off unnecessary app permissions to optimize battery life and your privacy.
@@ -67,7 +67,7 @@ const Dropdown = () => {
                 <Disclosure>
                   {({ open }) => (
                     <>
-                      <Disclosure.Button className="flex w-full justify-between rounded-lg bg-purple-100 px-4 py-2 text-left text-sm font-medium text-purple-900 hover:bg-purple-200 focus:outline-none focus-visible:ring focus-visible:ring-purple-500/75">
+                        <Disclosure.Button className="flex w-full justify-between rounded-l px-4 py-2 text-left text-sm font-medium text-black">
                         <span>How does Boksa Pasal work?</span>
                         <ChevronUpIcon
                           className={`${
@@ -75,7 +75,7 @@ const Dropdown = () => {
                           } h-5 w-5 text-purple-500`}
                         />
                       </Disclosure.Button>
-                      <Disclosure.Panel className="px-4 pb-2 pt-4 text-sm text-gray-500">
+                      <Disclosure.Panel className="px-4 pb-2 pt-4 text-sm text-black">
                       Boksa Pasal compiles and publishes the best games and apps based on trends and requests from users.
 
   You can then browse through the games and apps catalog to find the ones that suit your needs.
@@ -94,7 +94,7 @@ const Dropdown = () => {
                 <Disclosure>
                   {({ open }) => (
                     <>
-                      <Disclosure.Button className="flex w-full justify-between rounded-lg bg-purple-100 px-4 py-2 text-left text-sm font-medium text-purple-900 hover:bg-purple-200 focus:outline-none focus-visible:ring focus-visible:ring-purple-500/75">
+                       <Disclosure.Button className="flex w-full justify-between rounded-l px-4 py-2 text-left text-sm font-medium text-black">
                         <span>What makes Boksa Pasal different from other websites?</span>
                         <ChevronUpIcon
                           className={`${
@@ -102,7 +102,7 @@ const Dropdown = () => {
                           } h-5 w-5 text-purple-500`}
                         />
                       </Disclosure.Button>
-                      <Disclosure.Panel className="px-4 pb-2 pt-4 text-sm text-gray-500">
+                      <Disclosure.Panel className="px-4 pb-2 pt-4 text-sm text-black">
                       Free, simple and mindful.
                       </Disclosure.Panel>
                     </>
@@ -115,7 +115,7 @@ const Dropdown = () => {
                 <Disclosure>
                   {({ open }) => (
                     <>
-                      <Disclosure.Button className="flex w-full justify-between rounded-lg bg-purple-100 px-4 py-2 text-left text-sm font-medium text-purple-900 hover:bg-purple-200 focus:outline-none focus-visible:ring focus-visible:ring-purple-500/75">
+                        <Disclosure.Button className="flex w-full justify-between rounded-l px-4 py-2 text-left text-sm font-medium text-black">
                         <span>Does Boksa Pasal charge a fee?</span>
                         <ChevronUpIcon
                           className={`${
@@ -123,7 +123,7 @@ const Dropdown = () => {
                           } h-5 w-5 text-purple-500`}
                         />
                       </Disclosure.Button>
-                      <Disclosure.Panel className="px-4 pb-2 pt-4 text-sm text-gray-500">
+                      <Disclosure.Panel className="px-4 pb-2 pt-4 text-sm text-black">
                       NO.
 
                       Boksa Pasal is completely free and always will be. We will try to maintain the project for as long as I can. If you love this project and want to be a part of it, we’d love to get your support.
@@ -138,7 +138,7 @@ const Dropdown = () => {
                 <Disclosure>
                   {({ open }) => (
                     <>
-                      <Disclosure.Button className="flex w-full justify-between rounded-lg bg-purple-100 px-4 py-2 text-left text-sm font-medium text-purple-900 hover:bg-purple-200 focus:outline-none focus-visible:ring focus-visible:ring-purple-500/75">
+                       <Disclosure.Button className="flex w-full justify-between rounded-l px-4 py-2 text-left text-sm font-medium text-black">
                         <span>How to use Boksa Pasal?</span>
                         <ChevronUpIcon
                           className={`${
@@ -146,7 +146,7 @@ const Dropdown = () => {
                           } h-5 w-5 text-purple-500`}
                         />
                       </Disclosure.Button>
-                      <Disclosure.Panel className="px-4 pb-2 pt-4 text-sm text-gray-500">
+                      <Disclosure.Panel className="px-4 pb-2 pt-4 text-sm text-black">
                       You browse this website, search for your favorites and then download them. It’s all simple.
                       </Disclosure.Panel>
                     </>
