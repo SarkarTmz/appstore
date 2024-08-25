@@ -1,7 +1,7 @@
 import React from 'react'
 import '../styles/pages/About.css'
-import Banner from '../../Banner'
-import Footer from '../../Footer'
+import Banner from '../../../atoms/Banner'
+import Footer from '../../ee/Footer'
 
 const About = () => {
   return (

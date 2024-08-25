@@ -1,11 +1,11 @@
 import React from 'react'
 import '../styles/Home.css'
 
-import GameList from '../../../state/games/GameList'
-import Scroll from '../../Scroll'
-import Banner from '../../Banner'
-import Footer from '../../Footer'
-import Dropdown from '../../Dropdown'
+import GameList from '../../../../state/games/GameList'
+import Scroll from '../../ee/Scroll'
+import Banner from '../../../atoms/Banner'
+import Footer from '../../ee/Footer'
+import Dropdown from '../../../atoms/Dropdown'
 
 function Home() {
 
