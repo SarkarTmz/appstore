@@ -1,16 +1,16 @@
 import React from 'react'
-import '../styles/component/Scroll.css'
+import './Scroll.css'
 
-import img1 from '../images/game-img/coc.png'
-import img2 from '../images/app-img/kinemaster.png'
-import img3 from '../images/game-img/subway-surfers.avif'
-import img4 from '../images/game-img/ludo-king.jpg'
-import img5 from '../images/game-img/plant-vs-zombie.png'
-import img6 from '../images/app-img/capcut.png'
-import img7 from '../images/game-img/pokemon-go.png'
-import img8 from '../images/app-img/truecaller.png'
-import img9 from '../images/game-img/among-us.jpg'
-import img10 from '../images/game-img/minecraft.webp'
+import img1 from '../../../images/game-img/coc.png'
+import img2 from '../../../images/app-img/kinemaster.png'
+import img3 from '../../../images/game-img/subway-surfers.avif'
+import img4 from '../../../images/game-img/ludo-king.jpg'
+import img5 from '../../../images/game-img/plant-vs-zombie.png'
+import img6 from '../../../images/app-img/capcut.png'
+import img7 from '../../../images/game-img/pokemon-go.png'
+import img8 from '../../../images/app-img/truecaller.png'
+import img9 from '../../../images/game-img/among-us.jpg'
+import img10 from '../../../images/game-img/minecraft.webp'
 
 
 function Scroll() {

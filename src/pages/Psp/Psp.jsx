@@ -1,5 +1,5 @@
 import React from 'react'
-import '../styles/Psp.css'
+import './Psp.css'
 
 function Psp() {
   return (

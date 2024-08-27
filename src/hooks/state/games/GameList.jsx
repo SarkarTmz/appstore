@@ -1,7 +1,7 @@
 import React from 'react'
 import { useDatabase } from '../state';
 
-import '../../styles/state/games/GameList.css'
+import './GameList.css'
 
 const GameList = () => {
     const { database, setDatabase } = useDatabase();

@@ -1,13 +1,13 @@
 import {Route, Routes} from 'react-router-dom';
 import './App.css';
-import Header from './components/Header';
-import Home from './pages/Home';
-import Games from './pages/Games';
-import Apps from './pages/Apps';
-import Psp from './pages/Psp';
-import Contact from './pages/Contact';
-import MobileNav from './components/MobileNav';
-import About from './pages/About';
+import Header from './components/molecules/Header/Header';
+import Home from './pages/Home/Home';
+import Games from './pages/Games/Games';
+import Apps from './pages/Apps/Apps';
+import Psp from './pages/Psp/Psp';
+import Contact from './pages/Contact/Contact';
+import MobileNav from './components/molecules/MobileNav/MobileNav';
+import About from './pages/About/About';
 
 function App() {
   return (

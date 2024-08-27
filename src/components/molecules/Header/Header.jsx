@@ -2,8 +2,8 @@ import React from 'react'
 import {Link} from 'react-router-dom'
 import { HiMiniBars3 } from "react-icons/hi2";
 
-import '../styles/component/Header.css'
-import logo from '../images/logo.jpg'
+import './Header.css'
+import logo from '../../../images/logo.jpg'
 
 import { Fragment } from 'react'
 import { Disclosure, Menu, Transition } from '@headlessui/react'

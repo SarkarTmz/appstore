@@ -1,16 +1,16 @@
 import { useState } from 'react';
 
 
-import img1 from '../images/game-img/coc.png'
-import img2 from '../images/game-img/dsr.png'
-import img3 from '../images/game-img/subway-surfers.avif'
-import img4 from '../images/game-img/ludo-king.jpg'
-import img5 from '../images/game-img/plant-vs-zombie.png'
-import img6 from '../images/game-img/hungry-shark.png'
-import img7 from '../images/game-img/pokemon-go.png'
-import img8 from '../images/game-img/plant-vs-zombie.png'
-import img9 from '../images/game-img/among-us.jpg'
-import img10 from '../images/game-img/minecraft.webp'
+import img1 from '../../images/game-img/coc.png'
+import img2 from '../../images/game-img/dsr.png'
+import img3 from '../../images/game-img/subway-surfers.avif'
+import img4 from '../../images/game-img/ludo-king.jpg'
+import img5 from '../../images/game-img/plant-vs-zombie.png'
+import img6 from '../../images/game-img/hungry-shark.png'
+import img7 from '../../images/game-img/pokemon-go.png'
+import img8 from '../../images/game-img/plant-vs-zombie.png'
+import img9 from '../../images/game-img/among-us.jpg'
+import img10 from '../../images/game-img/minecraft.webp'
 
 // Function to create and manage state
 export const useDatabase = () => {

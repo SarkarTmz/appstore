@@ -1,5 +1,5 @@
 import React from 'react'
-import '../styles/component/Dropdown.css'
+import './Dropdown.css'
 import { Disclosure } from '@headlessui/react'
 import { ChevronUpIcon } from '@heroicons/react/20/solid'
 
