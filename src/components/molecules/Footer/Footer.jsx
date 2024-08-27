@@ -5,8 +5,8 @@ import './Footer.css'
 const Footer = () => {
   return (
     <>
-        <div className="footer">
-            <div className="footer-card container section">
+        <div className="footer section">
+            <div className="footer-card container">
                 <ul>
                     <p>Who We Are</p>
                     <Link to="about">About</Link>

@@ -4,11 +4,11 @@
   
 }
 .footer-card{
-    padding: 2rem 0;
+    /* padding: 2rem 0; */
     display: grid;
     justify-content: center;
     gap: 3rem;
-    padding-right: 15rem;
+    /* padding-right: 15rem; */
 }
 .footer-card ul a{
     color: var(--clr-dark);

@@ -2,7 +2,7 @@
     width: 100%;
     height: 220px;
     color: var(--clr-dark);
-    background-image: url(../../images//extra-img//des.jpg);
+    background-image: url(../../../images/extra-img//des.jpg);
     background-size: cover;
     background-position: center;
     text-align: center;

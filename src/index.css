@@ -116,9 +116,11 @@ strong{
   border-radius: 6px;
 }
 .container {
-  width: 90%;
+  /* width: 100%; */
+  /* width: 90%; */
   margin-left: auto;
   margin-right: auto;
+  /* padding: 0 20px; */
 }
 
 .section{
